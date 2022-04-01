@@ -1,3 +1,5 @@
 meu primeiro commit
 
-Realizando a alteração no Readme
+
+
+textando o uso do diff
