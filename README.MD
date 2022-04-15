@@ -5,4 +5,4 @@ Realizando a alteração no Readme
 =======
 
 Segunda alteração para registrar no commit
->>>>>>> versao1
+>>>>>>> versaogit
