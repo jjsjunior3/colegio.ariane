@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+header {
+    height: 100px;
+    background-color: rgb(18, 18, 148);
+}
+.header {
+    max-width: 1140px;
+    height:100px;
+    margin: 0 auto;
+    display: flex;
+}
+.logoimg {
+    width: 80px;
+    height: 80px;
+    background-image: url ("../images/logo.png");
+}

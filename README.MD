@@ -1,14 +1,4 @@
-meu primeiro commit
+Criando o Site do Colégio Ariane
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Realizando a alteração no Readme
-=======
-
-Segunda alteração para registrar no commit
->>>>>>> versaogit
-=======
-
-
-textando o uso do diff
->>>>>>> bf8605d1487bef5fce5f37164b0bab3b475444c4
+O site está sendo desenvolvido como forma de práticar os conhecimentos que estão sendo adiquiridos 
+durante as aulas de Htmal5 e CSS3
