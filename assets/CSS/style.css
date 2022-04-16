@@ -4,20 +4,52 @@
     box-sizing: border-box;
 }
 body {
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
 }
 header {
     height: 100px;
-    background-color: rgb(18, 18, 148);
+    background-color: #fff;
+    color:rgb(18, 18, 148);
 }
 .header {
     max-width: 1140px;
     height:100px;
     margin: 0 auto;
     display: flex;
+    align-items: center;
 }
-.logoimg {
-    width: 80px;
-    height: 80px;
-    background-image: url ("../images/logo.png");
+.logo {
+    width: 130px;
+}
+.header img {
+    max-width: 120px;
+}
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul,
+.menu li {
+    list-style: none;
+}
+.menu ul {
+    display: flex;
+}
+.menu li a {
+    color:rgb(18, 18, 148);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height:100px;
+    display:flex;
+    align-items: center;
+    border-bottom: 5px solid #FFF;
+}
+.menu li a:hover,
+.menu .active a  {
+    border-bottom:5px solid rgb(18, 18, 148);
 }
