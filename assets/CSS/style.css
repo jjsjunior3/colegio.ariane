@@ -67,6 +67,7 @@ header {
     padding: 10px 30px;
     margin-top:30px;
     border-radius: 20px;
+    box-shadow: 0px 5px 10px #333;
 }
 .banner {
     height: calc(100vh - 100px);
@@ -136,7 +137,7 @@ header {
 }
 .default.light .section-title,
 .default.light .section-body {
-    color:#000;
+    color:rgb(18, 18, 148);
 }
 .default.blue {
     background-color:#060486;
@@ -198,4 +199,75 @@ header {
     margin-top:10px;
     font-size: 13px;
     color: #ccc;
+}
+.section-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-galeria--filters {
+    border:1px solid #999;
+    background-color: #eee;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.section-galeria--filters ul,
+.section-galeria--filters li {
+    list-style: none;
+}
+.section-galeria--filters li {
+    display: inline-block;
+    padding:10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #999;
+    border-bottom: 3px solid #eee;
+    cursor: pointer;
+}
+.section-galeria--filters li:hover,
+.section-galeria--filters li.active {
+    border-bottom: 3px solid #060486;
+}
+.section-galeria--filters li:first-child {
+    border-left: 0;
+}
+.section-galeria--photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-galeria-photo {
+    width: 280px;
+}
+.section-galeria--photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+.section-galeria--photoarea img {
+    width: inherit;
+    height: inherit;
+    box-shadow: 0px 5px 10px #333;
+}
+.section-galeria--photoinfo {
+    position:absolute;
+    background-color: rgba(0,0,0,0.5);
+    width:inherit;
+    height:inherit;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.section-galeria--photoinfo h5 {
+    font-size:20px;
+    font-weight: 600;
+}
+.section-galeria--photoarea:hover .section-galeria--photoinfo {
+    display:flex;
 }
